@@ -1,0 +1,22 @@
+{
+  "name": {
+    "id": "name",
+    "type": "text",
+    "name": "name",
+    "pattern": "^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$",
+    "title": "Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
+  },
+  "password": {
+    "id": "tel",
+    "type": "tel",
+    "name": "password",
+    "title": "Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
+  },
+  "email": {
+    "id": "email",
+    "type": "text",
+    "name": "email",
+    "pattern": "[a-z0-9._%+-]+@[a-z0-9.-]+\\.[a-z]{2,4}$",
+    "title": "Email"
+  }
+}
